@@ -1,0 +1,239 @@
+header {
+    height: 10vh;
+    border: 2px solid purple;
+    background-color: lightpink;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+
+h1 {
+
+    
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: blueviolet;
+    
+    padding-left: 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 600px;
+    
+    
+
+}
+
+nav {
+
+   
+    display: inline-block;
+ 
+    flex-wrap: wrap;
+    padding-left: 440px;
+
+
+
+
+}
+
+nav ul a {
+
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: pink;
+color: white;
+padding: 10px;
+
+
+}
+
+
+
+
+main {
+
+   
+    /* height: var(--content-height); */
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 4px;
+    height: 75vh;
+    flex-wrap: wrap;
+     
+}
+
+
+
+
+.scope {
+
+    flex: 1.5 0 0;
+    /* height: var(--content-height); */
+    border: 2px solid purple;
+    /* position: relative; */
+    overflow: auto;
+    float: center;
+    /* padding: 100px; */
+    width: 1220px;
+    /* border-right: solid white; */
+    /* border-bottom: solid white; */
+    background-color: beige;
+    /* align-items: center; */
+    /* justify-items: right*/
+    
+
+}
+
+.start {
+
+    flex: 0.5 0 0;
+    /* height: var(--content-height); */
+    border: 2px solid black;
+    /* position: relative; */
+    overflow: auto;
+    /* float: center; */
+    /* padding: 100px; */
+    width: 1300px;
+    height: 95px;
+    /* border-right: solid white; */
+    /* border-bottom: solid white; */
+    background-color: whitesmoke;
+    color: maroon;
+    font-family: cursive;
+    font-size: x-small;
+    font-weight: bolder;
+    border-color: purple;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+h5 {
+
+    border-bottom: 2px solid lightpink;
+}
+
+
+footer {
+
+    height: 8vh;
+    border: 2px solid purple;
+    background-color: lightpink;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: blueviolet;
+    padding-top: 20px;
+    
+
+}
+
+
+
+
+
+
+  
+  /* Dark Mode */
+.dark {
+    background-color: black;
+    /* height: 100vh; */
+    color: #bebebe;
+   
+  }
+
+.dark h1,
+.dark main ul,
+.dark nav ul a {
+      color: blueviolet; /*  color change for elements in dark mode */
+  }  
+
+.dark #theme-icon {
+    background-color: #333; /* Dark background for the icon in dark mode */
+    color: #fff; /* Icon color in dark mode */  
+}
+  /* Light Mode */
+.light {
+    background-color: #f0ead6;
+    color: black;
+    /* height: 100vh; */
+  }
+
+.light h1,
+.light main ul,
+  .light nav ul a {
+      color: purple; /*  color change for elements in light mode */
+  }  
+  
+.light #theme-icon {
+    background-color: #fff; /* Light background for the icon in light mode */
+    color: #333; /* Icon color in light mode */
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+#theme-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px; /* Adjust this value to fine-tune the icon's position */
+    width: 24px; /* Adjust the width and height as per your icon size */
+    height: 24px;
+}  
+
+#theme-icon {
+    
+    border-radius: 50%; /* Makes the icon round if needed */
+    background-color: #fff; /* Background color for the icon */
+    padding: 4px; /* Padding around the icon */
+    cursor: pointer; /* Shows pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+  }
+
+.col {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

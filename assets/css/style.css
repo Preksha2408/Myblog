@@ -1,0 +1,165 @@
+:root {
+  --content-height: 50vh;
+  --background-color-light: white;   
+  --background-color-dark: black;
+  --text-color-light: black;
+  --text-color-dark: white;
+  --header-background-light: lightpink;
+  --header-background-dark: black;
+  --border-color-light: black;
+  --border-color-dark: white;
+}
+
+
+/* adds font-size , font family,background color to the body */
+body {
+  font-family: sans-serif;
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Adds background color in dark mode  */
+body.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+
+h1 {
+  height: 15vh;
+  border-bottom: 2px solid purple;
+  background-color: var(--header-background-light);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode h1 {
+  background-color: var(--header-background-dark);
+  border-color: var(--border-color-dark);
+}
+
+h1 ul {
+  display: inline-flex;
+  float: right;
+  padding-right: 30px;
+  word-spacing: 10px;
+}
+
+h2 {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+}
+
+main {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 80vh;
+  margin-top: 10px;
+}
+
+#control-panel-wrapper,
+#mood-board {
+  flex: 1;
+  border: 2px solid var(--border-color-light);
+  background-color: beige;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: calc(50% - 10px); /* Adjust to maintain space between the panels */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode #control-panel-wrapper,
+body.dark-mode #mood-board {
+  border-color: var(--border-color-dark);
+}
+
+#control-panel-wrapper {
+  margin-right: 10px;
+}
+
+#control-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 90px;
+}
+
+#control-panel img {
+  border-radius: 50%;
+  width: 290px;
+  height: 290px;
+}
+
+.blog {
+  position: absolute;
+  font-family: cursive;
+  font-weight: bolder;
+  font-style: italic;
+  color: purple;
+  font-size: xx-large;
+  box-sizing: border-box;
+  background-color: rgba(172, 255, 47, 0.581);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+}
+
+#mood-board {
+  margin-left: 10px;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border: none;
+}
+
+.theme-toggle img {
+  width: 32px;
+  height: 32px;
+  transition: opacity 0.3s;
+  
+}
+
+#theme-icon{
+
+padding-top: 30px;
+
+}
+body.dark-mode .theme-toggle img {
+  content: url('./assets/images/moon.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

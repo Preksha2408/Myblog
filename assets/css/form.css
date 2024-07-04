@@ -1,0 +1,46 @@
+/* A margin of 20px , added to the username, title, content  */
+li {
+  list-style: none;
+  margin-top: 20px;            
+  font-family: cursive;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: larger;
+  text-align: left;
+}
+
+
+li label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: wheat;
+  color: blueviolet;
+  cursor: pointer;
+  font-size: medium;
+  letter-spacing: 0.21px;
+  line-height: 8px;
+  width: 306px;
+  padding: 20px;
+  text-align: center;
+  font-family: cursive;
+  border: 2px dashed violet;
+  
+  display: block;
+}
+
+#save:hover {
+  box-shadow: 8px 8px 5px silver;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 6px;
+  margin-top: 10px;
+  font-size: small;
+  border: 2px dashed violet;
+}
+
+
