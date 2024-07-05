@@ -7,15 +7,15 @@ This project is a simple web application named "My Blog" that allows users to en
 
 ## File Structure
 
-index.html
-blog.html
-assets/css/style.css
-assets/css/form.css
-assets/css/blog.css
-assets/js/form.js
-assets/js/logic.js
-assets/js/blog.js
-assets/js/theme-toggle.js
+* index.html
+* blog.html
+* assets/css/style.css
+* assets/css/form.css
+* assets/css/blog.css
+* assets/js/form.js
+* assets/js/logic.js
+* assets/js/blog.js
+* assets/js/theme-toggle.js
 
 
 # screenshots 
@@ -35,6 +35,7 @@ Deployed Application link : https://preksha2408.github.io/Myblog/
 
 
 Git repository link :   https://github.com/Preksha2408/Myblog.git
+
 
 
 # index.html
@@ -87,3 +88,5 @@ JavaScript for theme toggling functionality:
 Handles the click event on the theme toggle button.
 Toggles between light and dark themes by adding or removing a class from the body.
 Updates the icon based on the current theme.
+
+
