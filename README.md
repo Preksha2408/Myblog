@@ -20,13 +20,13 @@ assets/js/theme-toggle.js
 
 # screenshots 
 
-Web-page 1 : (![My-Blog](image-3.png))
+Web-page 1 : (![My-Blog](assets/images/My-Blog-webpage1.png))
 
-Web-Page 2 : ![My First Blog](image-1.png)
+Web-Page 2 : ![My First Blog](assets/images/My-first-Blog.png)
 
-Dark-Mode : ![Dark-Mode-On](image.png)
+Dark-Mode : ![Dark-Mode-On](assets/images/Dark-mode-img.png)
 
-Light Mode : ![Light-Mode-On](image-1.png)
+Light Mode : ![Light-Mode-On](assets/images/My-first-Blog.png)
 
 
 # Link 
